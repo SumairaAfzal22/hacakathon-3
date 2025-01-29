@@ -36,9 +36,9 @@ const FooterLinks = () => {
             <span className="font-bold text-black mb-4">Kids</span>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>Infant & Toddlers Shoes</li>
-              <li>Kid's Shoes</li>
-              <li>Kid's Jordan Shoes</li>
-              <li>Kid's Basketball Shoes</li>
+              <li>Kid&#39;s Shoes</li>
+              <li>Kid&#39;s Jordan Shoes</li>
+              <li>Kid&#39;s Basketball Shoes</li>
             </ul>
           </li>
         </ul>

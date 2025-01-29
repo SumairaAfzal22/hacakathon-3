@@ -24,7 +24,7 @@ const page = () => {
                                     <h2 className="text-lg font-medium">Nike Dri-FIT ADV TechKnit Ultra</h2>
                                     <p className="text-sm font-medium text-black">₹ 3,895.00</p>
                                 </div>
-                                <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+                                <p className="text-sm text-gray-600">Men&#39;s Short-Sleeve Running Top</p>
                                 <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
                                 <div className="flex gap-6 mt-2">
                                     <span className="text-sm font-medium">Size: L</span>
@@ -50,7 +50,7 @@ const page = () => {
                                     <h2 className="text-lg font-medium">Nike Dri-FIT ADV TechKnit Ultra</h2>
                                     <p className="text-sm font-medium text-black">₹ 3,895.00</p>
                                 </div>
-                                <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+                                <p className="text-sm text-gray-600">Men&#39;s Short-Sleeve Running Top</p>
                                 <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
                                 <div className="flex gap-6 mt-2">
                                     <span className="text-sm font-medium">Size: 8</span>

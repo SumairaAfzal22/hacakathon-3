@@ -88,14 +88,14 @@ const page = () => {
           <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
             <Image
               src="/p1.png"
-              alt="Men's Shoes"
+              alt="Men Shoes"
               className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
               width={500}
               height={500}
             />
             <p className="text-lg font-normal text-amber-800">Just In </p>
             <h2 className="text-lg font-medium">Nike Court Vision Low Next Nature</h2>
-            <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+            <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
             <p className="text-sm text-gray-500">Colors: 1, 2</p>
             <p className="text-lg font-medium text-black mt-4">MRP : ₹ 4 995.00</p>
 
@@ -105,14 +105,14 @@ const page = () => {
           <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
             <Image
               src="/p2.png"
-              alt="Men's Shoes"
+              alt="Men Shoes"
               className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
               width={500}
               height={500}
             />
             <p className="text-lg font-normal text-amber-800">Just In </p>
             <h2 className="text-lg font-medium">Nike Air Force 1 PLT.AF.ORM</h2>
-            <h3 className="text-lg font-normal text-gray-500">Women's Shoes</h3>
+            <h3 className="text-lg font-normal text-gray-500">Women&#39;s Shoes</h3>
             <p className="text-sm text-gray-500">Colors: 1, 2</p>
             <p className="text-lg font-medium text-black mt-4">MRP : ₹ 8 695.00</p>
 
@@ -122,14 +122,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p3.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">MRP : ₹ 13 295.00</p>
 
@@ -138,14 +138,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p4.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Air Jordan 1 Elevate Low</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -154,14 +154,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p4.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Air Jordan 1 Elevate Low</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -170,14 +170,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p5.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Standard Issue</h2>
-          <h3 className="text-lg font-normal text-gray-500">Women's Basketball Jersey</h3>
+          <h3 className="text-lg font-normal text-gray-500">Women&#39;s Basketball Jersey</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">MRP : ₹ 4 995.00</p>
 
@@ -186,14 +186,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p6.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Women's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Women&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -203,14 +203,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p7.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Sustainable Materials </p>
           <h2 className="text-lg font-medium">Nike Dri-FIT UV Hyverse</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -219,14 +219,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p8.png"
-            alt="Men's Shoes"
+            alt="Men Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Sustainable Materials </p>
           <h2 className="text-lg font-medium">Nike Dri-FIT UV Hyverse</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -235,14 +235,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p9.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -251,14 +251,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p8.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Sustainable Materials </p>
           <h2 className="text-lg font-medium">Nike Dri-FIT UV Hyverse</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -267,14 +267,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p11.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid '07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -283,14 +283,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p10.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Men's Tight-Fit Sleeveless Top</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -299,14 +299,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p11.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -315,14 +315,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p12.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -331,14 +331,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p13.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Air Force 1 Mid 07</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 
@@ -348,14 +348,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p14.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Alate All U</h2>
-          <h3 className="text-lg font-normal text-gray-500">Women's Light-Support Lightly Lined U-Neck Printed Sports Bra</h3>
+          <h3 className="text-lg font-normal text-gray-500">Women&#39;s Light-Support Lightly Lined U-Neck Printed Sports Bra</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">MRP : ₹ 2 195.00</p>
 
@@ -364,14 +364,14 @@ const page = () => {
         <div className="w-full sm:w-[260px] lg:w-[348px] flex flex-col items-start p-2">
           <Image
             src="/p15.png"
-            alt="Men's Shoes"
+            alt="Mens Shoes"
             className="w-full h-[200px] sm:h-[260px] lg:h-[360px] object-cover mb-4"
             width={500}
             height={500}
           />
           <p className="text-lg font-normal text-amber-800">Just In </p>
           <h2 className="text-lg font-medium">Nike Dri-FIT Challenger</h2>
-          <h3 className="text-lg font-normal text-gray-500">Men's Shoes</h3>
+          <h3 className="text-lg font-normal text-gray-500">Men&#39;s Shoes</h3>
           <p className="text-sm text-gray-500">Colors: 1, 2</p>
           <p className="text-lg font-medium text-black mt-4">$99.99</p>
 

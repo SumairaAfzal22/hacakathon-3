@@ -30,20 +30,10 @@ export default function hero() {
                     </p>
                     <div className="flex justify-center gap-8 mt-6">
                         <div className="w-auto">
-                            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap 
-                            text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none 
-                            focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
-                            disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
-                            [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-primary/90 h-10 px-8 py-3 text-white
-                             hover:text-black bg-black rounded-full">Notify Me</button>
+                            <button className="bg-black text-white flex py-2 px-6 rounded-full hover:bg-gray-800 transition duration-300">Notify Me</button>
                         </div>
                         <div className="w-auto">
-                            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap 
-                            text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none 
-                            focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
-                            disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none
-                             [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-primary/90 h-10 px-8 py-3 text-white
-                              hover:text-black bg-black rounded-full">Shop Air Max</button>
+                            <button className="bg-black text-white flex py-2 px-6 rounded-full hover:bg-gray-800 transition duration-300">Shop Air Max</button>
                         </div>
             </div>
             </div>            

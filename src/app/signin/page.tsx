@@ -33,7 +33,7 @@ const page = () => {
     
     <div className="text-center text-sm text-gray-600 mt-4">
         <p>
-            By logging in, you agree to Nike's. 
+            By logging in, you agree to Nike&#39;s. 
             <a href="/privacy-policy" className="text-gray-500 underline">   Privacy Policy</a> and 
             <a href="/terms" className="text-gray-500 underline">Terms & Conditions</a>.
         </p>
