@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image"
+import Image from "next/image";
 import { useState } from "react";
 import { FaTruck } from "react-icons/fa";
 
@@ -22,7 +22,7 @@ export default function CheckoutForm() {
     savePan: false
   });
 
-  const handleChange = (e: { target: { name: any; value: any; type: any; checked: any; }; }) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = e.target;
     setFormData((prevState) => ({
       ...prevState,
@@ -41,13 +41,13 @@ export default function CheckoutForm() {
             Customs regulations for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address.
             Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns.
             If your KYC does not match your shipping address, please click the link for more information.
-            <a href="#" className="text-gray-400 text-[15px] underline">Learn More</a>.
+            <a href="#" className="text-gray-400 text-[15px] underline">Learn More</a> .
           </p>
 
           {/* Delivery Option */}
           <div className="flex items-center w-full lg:w-[410px] h-[82px] border-[2px] rounded-[12px] px-[27px] mb-4 text-left gap-2">
             <FaTruck className="text-2xl " />
-            <span >Deliver it</span>
+            <span>Deliver it</span>
           </div>
 
           {/* Form Fields */}
@@ -152,7 +152,7 @@ export default function CheckoutForm() {
               <label htmlFor="preferred-address" className="text-sm">Make this my preferred Address</label>
             </div>
 
-            <h3 className="text-lg font-semibold mb-2">What&#39;s your contact information?</h3>
+            <h3 className="text-lg font-semibold mb-2">What's your contact information?</h3>
             <input
               placeholder="Email"
               className="w-full p-2 border border-gray-300 rounded-[4px]"
@@ -172,7 +172,7 @@ export default function CheckoutForm() {
             />
             <p className="text-[11px] font-normal text-[#757575]">A carrier might contact you to confirm delivery.</p>
 
-            <h3 className="text-lg lg:text-[21px] font-semibold mb-2">What&#39;s your PAN?</h3>
+            <h3 className="text-lg lg:text-[21px] font-semibold mb-2">What's your PAN?</h3>
             <input
               placeholder="PAN"
               className="w-full p-2 border border-gray-300 rounded-[4px]"
@@ -215,59 +215,7 @@ export default function CheckoutForm() {
             </button>
           </form>
         </div>
-
-        <div className="w-full md:w-[340px] px-4">
-        <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
-        <div className="flex justify-between mb-2 text-[15px] text-[#8D8D8D]">
-          <p>Subtotal:</p>
-          <p>₹ 20 890.00</p>
-        </div>
-        <div className="flex justify-between text-[15px] text-[#8D8D8D] mb-2">
-          <p>Delivery Shipping:</p>
-          <p>Free</p>
-        </div>
-        <div className="border-t border-gray-300 my-2"></div>
-        <div className="flex justify-between text-[15px] mb-4">
-          <p className="font-semibold">Total:</p>
-          <p className="font-semibold">₹ 20 890.00</p>
-        </div><div className="border-t border-gray-300 mb-4">
-        </div>
-        <p className="text-[9px] font-normal mb-4">(The total reflects the price of your order, including all duties and taxes)</p>
-        <h1 className="text-[15px] font-bold mb-2">Arrives Mon, 27 Mar - Wed, 12 Apr</h1>
-        <div className="space-y-4">
-          <div className="flex items-center space-x-3">
-
-            <Image src={"/product-4.png"} alt="Product Top"
-              width={208}
-              height={208}
-              className="  object-cover rounded-md" />
-            <div className="text-[13px] w-[100px]">
-              <p className="font-normal">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
-              <p className="text-sm text-[#8D8D8D]">Qty 2 </p>
-              <p className="text-[#8D8D8D]">Size L</p>
-              <p className="font-normal text-[#8D8D8D]">₹ 3 895.00</p>
-            </div>
-          </div>
-          <div className="border-t border-gray-200"></div>
-          <div className="flex items-center space-x-3">
-          <Image src={"/p2.png"} alt="Product Top"
-              width={208}
-              height={208}
-              className="  object-cover rounded-md" />
-            <div>
-              <p>Nike Air Force 1 PLT.AF.ORM</p>
-              <p className="text-sm text-[#8D8D8D]">Qty 1</p>
-              <p className="text-[#8D8D8D]"> Size L</p>
-              <p className="font-semibold text-[#8D8D8D]">₹ 8 695.00</p>
-            </div>
-          </div>
-        </div>
       </div>
-
     </div>
-
-      </div>
-
-     
   );
 }
