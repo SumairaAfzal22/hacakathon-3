@@ -1,4 +1,8 @@
+"use client"
+
+import Link from 'next/link';
 import React from 'react'
+import { FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -9,91 +13,82 @@ const Footer = () => {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">FIND A STORE</h2>
             <nav className="list-none">
+
+
               <li className="mb-4">
-                <a className="text-base font-medium text-white hover:text-white/70" href="/">
+                <Link href="/" className="text-base font-medium text-white hover:text-white/70">
                   BECOME A MEMBER
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a className="text-base font-medium text-white hover:text-white/70" href="#">
+                <Link href="#" className="text-base font-medium text-white hover:text-white/70">
                   SIGN UP FOR EMAIL
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a className="text-base font-medium text-white hover:text-white/70" href="#">
+                <Link href="#" className="text-base font-medium text-white hover:text-white/70">
                   Send Us Feedback
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="text-base font-medium text-white hover:text-white/70" href="#">
+                <Link href="#" className="text-base font-medium text-white hover:text-white/70">
                   STUDENT DISCOUNT
-                </a>
+                </Link>
               </li>
+
+
             </nav>
           </div>
 
           {/* Get Help */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 ">
             <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">GET HELP</h2>
             <nav className="list-none">
-              <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Order Status
-                </a>
-              </li>
-              <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Delivery
-                </a>
-              </li>
-              <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Returns
-                </a>
-              </li>
-              <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Payment Options
-                </a>
-              </li>
-              <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Contact Us On Nike.com Inquiries
-                </a>
-              </li>
-              <li>
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Contact Us On All Other Inquiries
-                </a>
-              </li>
-            </nav>
-          </div>
 
-          {/* About Me */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">ABOUT ME</h2>
-            <nav className="list-none">
+
+
+              {/* First block: Navigation Links */}
               <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  News
-                </a>
+                <Link href="/" className="text-base font-medium text-[#757575]">Order Status</Link>
               </li>
               <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Careers
-                </a>
+                <Link href="/" className="text-base font-medium text-[#757575]">Delivery</Link>
               </li>
               <li className="mb-4">
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Investors
-                </a>
+                <Link href="/" className="text-base font-medium text-[#757575]">Returns</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/" className="text-base font-medium text-[#757575]">Payment Options</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/" className="text-base font-medium text-[#757575]">Contact Us On Nike.com Inquiries</Link>
               </li>
               <li>
-                <a className="text-base font-medium text-[#757575]" href="/">
-                  Sustainability
-                </a>
+                <Link href="/" className="text-base font-medium text-[#757575]">Contact Us On All Other Inquiries</Link>
               </li>
-            </nav>
+              </nav>
+              </div>
+              {/* Second block: About Me Links */}
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">ABOUT ME</h2>
+                <nav className="list-none">
+                  <li className="mb-4">
+                    <Link href="/" className="text-base font-medium text-[#757575]">News</Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link href="/" className="text-base font-medium text-[#757575]">Careers</Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link href="/" className="text-base font-medium text-[#757575]">Investors</Link>
+                  </li>
+                  <li>
+                    <Link href="/" className="text-base font-medium text-[#757575]">Sustainability</Link>
+                  </li>
+                </nav>
+              </div>
+
+
+            
           </div>
         </div>
 
@@ -113,23 +108,22 @@ const Footer = () => {
             ©2023 Nike, Inc. All Rights Reserved
           </p>
           <span className="flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start space-x-5">
-          
-            <a href="#" className="w-8 h-8 text-gray-500 hover:text-white">
-            
-            </a>
-            <a href="#" className="text-gray-500 hover:text-white">
-              
-            </a>
-            <a href="#" className="text-gray-500 hover:text-white">
-              
-            </a>
-            <a href="#" className="text-gray-500 hover:text-white">
-             
-            </a>
+
+
+
+            <Link href="#" className="w-8 h-8 text-gray-500 hover:text-white"></Link>
+            <Link href="#" className="text-gray-500 hover:text-white"></Link>
+            <Link href="#" className="text-gray-500 hover:text-white"></Link>
+            <Link href="#" className="text-gray-500 hover:text-white"></Link>
+            <FaFacebook className='text-gray-700 text-2xl'/>
+            <FaTwitter className='text-gray-700 text-2xl'/>
+            <FaInstagramSquare className='text-gray-700 text-2xl'/>
+            <FaLinkedin className='text-gray-700 text-2xl'/>
           </span>
+         
         </div>
-      </div>
-      </footer>
+      
+    </footer>
   )
 }
 

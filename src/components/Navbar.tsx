@@ -15,8 +15,7 @@ const Navbar = () => {
                 <div className='hidden md:flex items-center'>
                     <SiJordan />
                 </div>
-                <h1 className='text-center text-sm lg:text-base font-medium mx-auto'>Skip to main content </h1>
-
+                
                 <div className='hidden md:flex space-x-4 text-sm lg:text-base'>
                     <a href="#" className='hover:underline text-sm'>Find a Store |</a>
                     <a href="help" className='hover:underline text-sm'>Help |</a>
@@ -70,6 +69,7 @@ const Navbar = () => {
                 </div>
 
             </main>
+            
         </header>
 
 

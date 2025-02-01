@@ -48,7 +48,7 @@ const page = () => {
                             <div className="flex-grow">
                                 <div className="flex justify-between items-center">
                                     <h2 className="text-lg font-medium">Nike Dri-FIT ADV TechKnit Ultra</h2>
-                                    <p className="text-sm font-medium text-black">₹ 3,895.00</p>
+                                    <p className="text-sm font-medium text-black">₹ 8 695.00</p>
                                 </div>
                                 <p className="text-sm text-gray-600">Men&#39;s Short-Sleeve Running Top</p>
                                 <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
