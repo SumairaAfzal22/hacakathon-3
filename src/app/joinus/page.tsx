@@ -144,7 +144,7 @@ const page = () => {
           {/* Terms and Privacy Policy */}
           <div className="text-center text-sm text-[12px] text-[#8D8D8D] mt-2">
             <p>
-              By creating an account, you agree to Nike's.
+              By creating an account, you agree to Nike&#39;s.
               <a href="/privacy-policy" className="text-[#8D8D8D] underline">  Privacy Policy</a>
               and
               <a href="/terms" className="text-[#8D8D8D] underline">Terms of Use</a>.
