@@ -13,8 +13,6 @@ const Footer = () => {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">FIND A STORE</h2>
             <nav className="list-none">
-
-
               <li className="mb-4">
                 <Link href="/" className="text-base font-medium text-white hover:text-white/70">
                   BECOME A MEMBER
@@ -35,8 +33,6 @@ const Footer = () => {
                   STUDENT DISCOUNT
                 </Link>
               </li>
-
-
             </nav>
           </div>
 
@@ -44,10 +40,6 @@ const Footer = () => {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 ">
             <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">GET HELP</h2>
             <nav className="list-none">
-
-
-
-              {/* First block: Navigation Links */}
               <li className="mb-4">
                 <Link href="/" className="text-base font-medium text-[#757575]">Order Status</Link>
               </li>
@@ -66,65 +58,62 @@ const Footer = () => {
               <li>
                 <Link href="/" className="text-base font-medium text-[#757575]">Contact Us On All Other Inquiries</Link>
               </li>
-              </nav>
-              </div>
-              {/* Second block: About Me Links */}
-              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">ABOUT ME</h2>
-                <nav className="list-none">
-                  <li className="mb-4">
-                    <Link href="/" className="text-base font-medium text-[#757575]">News</Link>
-                  </li>
-                  <li className="mb-4">
-                    <Link href="/" className="text-base font-medium text-[#757575]">Careers</Link>
-                  </li>
-                  <li className="mb-4">
-                    <Link href="/" className="text-base font-medium text-[#757575]">Investors</Link>
-                  </li>
-                  <li>
-                    <Link href="/" className="text-base font-medium text-[#757575]">Sustainability</Link>
-                  </li>
-                </nav>
-              </div>
+            </nav>
+          </div>
 
-
-            
+          {/* About Me */}
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="text-lg font-medium tracking-tight text-white mb-10 mt-10">ABOUT ME</h2>
+            <nav className="list-none">
+              <li className="mb-4">
+                <Link href="/" className="text-base font-medium text-[#757575]">News</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/" className="text-base font-medium text-[#757575]">Careers</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/" className="text-base font-medium text-[#757575]">Investors</Link>
+              </li>
+              <li>
+                <Link href="/" className="text-base font-medium text-[#757575]">Sustainability</Link>
+              </li>
+            </nav>
           </div>
         </div>
+      </div>
 
-        {/* Footer Bottom */}
-        <div className="flex flex-col sm:flex-row gap-5 items-center justify-between mt-10">
-          <div className="flex items-center space-x-2">
-            <a className="flex items-center" href="/">
-              <img
-                alt="logo"
-                className="w-8 h-8"
-                src="/logo-1.png"
-              />
-            </a>
-            <span className="text-[12px] text-white">Pakistan</span>
-          </div>
-          <p className="text-xs font-normal tracking-tight text-[#757575] mt-4 sm:mt-0">
-            ©2023 Nike, Inc. All Rights Reserved
-          </p>
-          <span className="flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start space-x-5">
-
-
-
-            <Link href="#" className="w-8 h-8 text-gray-500 hover:text-white"></Link>
-            <Link href="#" className="text-gray-500 hover:text-white"></Link>
-            <Link href="#" className="text-gray-500 hover:text-white"></Link>
-            <Link href="#" className="text-gray-500 hover:text-white"></Link>
-            <FaFacebook className='text-gray-700 text-2xl'/>
-            <FaTwitter className='text-gray-700 text-2xl'/>
-            <FaInstagramSquare className='text-gray-700 text-2xl'/>
-            <FaLinkedin className='text-gray-700 text-2xl'/>
-          </span>
-         
+      {/* Footer Bottom */}
+      <div className="flex flex-col sm:flex-row gap-5 items-center justify-between mt-10">
+        <div className="flex items-center space-x-2">
+          <a className="flex items-center" href="/">
+            <img
+              alt="logo"
+              className="w-8 h-8"
+              src="/logo-1.png"
+            />
+          </a>
+          <span className="text-[12px] text-white">Pakistan</span>
         </div>
-      
+        <p className="text-xs font-normal tracking-tight text-[#757575] mt-4 sm:mt-0">
+          ©2023 Nike, Inc. All Rights Reserved
+        </p>
+        <span className="flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start space-x-5">
+          <Link href="https://www.facebook.com" aria-label="Facebook" className="w-8 h-8 text-gray-500 hover:text-white">
+            <FaFacebook className="text-gray-700 text-2xl" />
+          </Link>
+          <Link href="https://twitter.com" aria-label="Twitter" className="w-8 h-8 text-gray-500 hover:text-white">
+            <FaTwitter className="text-gray-700 text-2xl" />
+          </Link>
+          <Link href="https://www.instagram.com" aria-label="Instagram" className="w-8 h-8 text-gray-500 hover:text-white">
+            <FaInstagramSquare className="text-gray-700 text-2xl" />
+          </Link>
+          <Link href="https://www.linkedin.com" aria-label="LinkedIn" className="w-8 h-8 text-gray-500 hover:text-white">
+            <FaLinkedin className="text-gray-700 text-2xl" />
+          </Link>
+        </span>
+      </div>
     </footer>
   )
 }
 
-export default Footer
+export default Footer;
