@@ -20,10 +20,10 @@ export function SheetDemo() {
       <ul className='  '>
                     <li className='grid grid-cols-1 gap-y-5'>
                         <Link href={""}>New&Featured</Link>
-                        <Link href={""}>Men</Link>
+                        <Link href={"cart"}>Men</Link>
                         <Link href={""}>Women</Link>
                         <Link href={""}>Kids</Link>
-                        <Link href={""}>Sale</Link>
+                        <Link href={"productdetail"}>Sale</Link>
                         <Link href={""}>SNKRS</Link>
                     </li>
                 </ul>
